@@ -18,5 +18,9 @@ public class Program {
         for(Seller obj : list){
             System.out.println(obj);
         }
+        List<Seller> list2 = sellerDao.findAll();
+        for(Seller obj : list){
+            System.out.println(obj);
+        }
     }
 }
