@@ -1,4 +1,4 @@
-package aplication;
+package application;
 
 import model.dao.DaoFactory;
 import model.dao.SellerDao;
